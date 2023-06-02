@@ -1,0 +1,43 @@
+section{
+    padding: 120px 0;
+}
+
+#landing-art{
+    max-width: 1000px;
+}
+
+#book-btn{
+   margin-bottom: 10px;
+   margin-right: 15px;
+   border-radius: 25px;
+   padding: 11px;
+   background-color: #4d5eac;
+}
+
+#services-btn{
+    margin-bottom:10px;
+    
+    border-radius: 25px;
+    padding: 11px;
+    background-color: white;
+    color: #4d5eac;
+    border-color: #4d5eac;
+}
+
+#services-btn:hover{
+    background-color: #4d5eac;
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+    color: white;
+
+}
+
+#header{
+    font-weight: 800;
+    
+
+}
+
+#header span{
+   color: #4d5eac;
+}
