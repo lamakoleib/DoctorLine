@@ -3,9 +3,15 @@ section{
    
 }
 
+#landing{
+    margin-bottom: 0;
+}
+
 #about{
-    padding:100px 0 200px;
+    
+    padding:100px 0 ;
     background-color: #eeedf8;
+    margin-bottom: 100px;
 
 }
 
@@ -15,12 +21,17 @@ section{
 
 #services{
 
-    padding: 150px 0 80px;
+    padding: 100px 0 80px;
+    margin-bottom: 70px;
+   
+    
+    
 
 }
 
 #contact-us{
     padding: 100px 0;
+    margin-top: 40px;
     background-color: #eeedf8;
 }
 
@@ -31,21 +42,59 @@ section{
 
 }
 
+
 .card{
     max-width:10em;
+
+    overflow: hidden;
     
 
+
+    
     
     flex-direction: row;
-    margin: 20px;
+    margin: 25px;
     border-radius: 25px;
-    padding: 15px;
+    padding: 20px;
     background-color: #eeedf8;
     border-color: #eeedf8;
 
-    
+    transition: 0.5s;
+   
 
 }
+
+
+#doctor-1{
+    
+    overflow: hidden;
+    height:180px;  
+}
+
+#doctor-1.open{
+    height:790px;
+    background-color: #eeedf8;
+    border-radius: 25px;
+   
+
+    
+    transition: 0.51s;
+    
+}
+
+#doctor-1.open img{
+    border-radius: 25px;
+    margin-top: 10px;
+    
+   
+   
+    
+}
+
+#doc1-info{
+    font-size: 11px;
+}
+
 
 
 
@@ -103,7 +152,7 @@ section{
 
     color: black !important;
     border-radius: 20px;
-    transition: 0.3s;
+    transition: 0.2s;
     transition-timing-function: ease-in-out;
 
 }
@@ -112,7 +161,7 @@ section{
 
     background-color:#eeedf8 !important;
     border-radius: 20px;
-    transition: 0.3s;
+    transition: 0.2s;
     transition-timing-function: ease-in-out;
 
 
@@ -193,4 +242,44 @@ section{
 .p{
     max-width: 30%;
 }
+
+
+.list{
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+#services h1{
+    margin-bottom:100px;
+    font-weight: 700;
+}
+
+#services h2{
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #4d5eac;
+}
+
+#services li{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+    font-weight: 500;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+   
+}
+
+#services li:hover{
+    background-color: #eeedf8;
+    border-radius: 25px;
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+
 
