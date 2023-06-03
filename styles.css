@@ -1,9 +1,59 @@
 section{
-    padding: 120px 0;
+    padding: 250px 0;
+   
 }
 
+.navbar{
+
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+
+}
+
+.navbar li{
+    font-weight: 600;
+    padding: 2px 15px 0 0;
+   
+}
+
+.navbar li a{
+
+    color: black !important;
+
+}
+
+.navbar li a:hover{
+
+    color:#4d5eac !important;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+
+
+}
+
+
+
+.fw-bold{
+    font-size: larger;
+}
+
+#doctor-half{
+    color: #b2b0f1;
+
+}
+
+#line-half{
+    color:#4d5eac;
+}
+
+
+
+
+
 #landing-art{
+   
     max-width: 1000px;
+    
 }
 
 #book-btn{
@@ -12,6 +62,15 @@ section{
    border-radius: 25px;
    padding: 11px;
    background-color: #4d5eac;
+   font-weight: 500;
+   transition: 0.2s;
+}
+
+#book-btn:hover{
+
+    transform: scale(1.04);
+    transition:0.3s;
+    transition-timing-function: ease-in-out;
 }
 
 #services-btn{
@@ -22,13 +81,15 @@ section{
     background-color: white;
     color: #4d5eac;
     border-color: #4d5eac;
+    font-weight: 500;
 }
 
 #services-btn:hover{
     background-color: #4d5eac;
-    transition: 0.2s;
+    transition: 0.4s;
     transition-timing-function: ease-in-out;
     color: white;
+    font-weight: 500;
 
 }
 
@@ -40,4 +101,8 @@ section{
 
 #header span{
    color: #4d5eac;
+}
+
+.p{
+    max-width: 30%;
 }
