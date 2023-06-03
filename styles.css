@@ -16,10 +16,12 @@ section{
     margin: 20px;
     border-radius: 25px;
     padding: 15px;
+    background-color: #eeedf8;
 }
 
 .card img{
     max-width: 10em;
+    border-radius: 25px;
 }
 
 .card-title{
@@ -151,4 +153,8 @@ section{
 
 .p{
     max-width: 30%;
+}
+
+#contact-us{
+    background-color: #eeedf8;
 }
