@@ -3,6 +3,24 @@ section{
    
 }
 
+#about{
+    padding:100px 0 200px;
+}
+
+#our-doctors{
+    padding: 100px 0 100px;
+}
+
+#services{
+
+    padding: 150px 0 80px;
+
+}
+
+#contact-us{
+    padding: 100px 0;
+}
+
 .navbar{
 
     background-color: white;
@@ -17,6 +35,7 @@ section{
     border-radius: 25px;
     padding: 15px;
     background-color: #eeedf8;
+    border-color: #eeedf8;
 }
 
 .card img{
