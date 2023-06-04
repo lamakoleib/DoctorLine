@@ -15,14 +15,22 @@ section{
 
 }
 
+#about h1{
+    font-weight: 700;
+}
+
 #our-doctors{
     padding: 100px 0 100px;
+}
+
+#our-doctors h1{
+    font-weight: 700;
 }
 
 #services{
 
     padding: 100px 0 80px;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
    
     
     
@@ -33,6 +41,10 @@ section{
     padding: 100px 0;
     margin-top: 40px;
     background-color: #eeedf8;
+}
+
+#contact-us h1{
+    font-weight: 700;
 }
 
 .navbar{
@@ -239,23 +251,21 @@ section{
    color: #4d5eac;
 }
 
-.p{
-    max-width: 30%;
-}
 
 
-.list{
-    text-align: justify;
-    margin-bottom: 40px;
-}
+
+
 
 #services h1{
-    margin-bottom:100px;
+    margin-bottom: 30px;
     font-weight: 700;
 }
 
+
+
 #services h2{
     margin-bottom: 50px;
+    margin-top: 100px;
     font-size: 40px;
     font-weight: 600;
     color: #4d5eac;
@@ -266,11 +276,14 @@ section{
     list-style: none;
     text-align: center;
     padding: 20px;
-    font-weight: 500;
+    padding-left:10px;
+    font-weight: 400;
     border-radius: 25px;
     cursor: pointer;
     transition: 0.2s;
     transition-timing-function: ease-in-out;
+    font-size: 20px;
+    
    
 }
 
@@ -280,6 +293,33 @@ section{
     transition: 0.2s;
     transition-timing-function: ease-in-out;
 }
+
+#book-today-btn{
+
+    padding: 10px;
+    background-color: #4d5eac;
+    border-radius: 17px;
+    font-weight: 500;
+    transition: 0.3s;
+    
+
+}
+
+#book-today-btn:hover{
+    transform: scale(1.04);
+    transition:0.3s;
+    transition-timing-function: ease-in-out;
+
+}
+
+#book-today{
+    margin-top: 150px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
 
 
 
