@@ -38,13 +38,26 @@ section{
 }
 
 #contact-us{
-    padding: 100px 0;
-    margin-top: 40px;
+    padding: 20px 0;
+    margin-top: 20px;
     background-color: #eeedf8;
+    
 }
 
 #contact-us h1{
     font-weight: 700;
+    margin-bottom: 40px;
+    padding-top: 50px;
+}
+
+iframe{
+   
+    max-width: 500px;
+    max-height: 300px;
+    border-radius: 35px;
+    padding: 20px;
+    
+    
 }
 
 .navbar{
@@ -72,6 +85,9 @@ section{
     border-color: #eeedf8;
 
     transition: 0.5s;
+
+    box-shadow: 0 4px 8px rgba(77, 94, 172, 0.4); 
+    
    
 
 }
@@ -87,6 +103,7 @@ section{
     height:790px;
     background-color: #eeedf8;
     border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(77, 94, 172, 0.4); 
    
 
     
@@ -271,18 +288,22 @@ section{
     color: #4d5eac;
 }
 
+
+
 #services li{
     text-decoration: none;
     list-style: none;
     text-align: center;
     padding: 20px;
-    padding-left:10px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-weight: 400;
     border-radius: 25px;
-    cursor: pointer;
+    cursor:default;
     transition: 0.2s;
     transition-timing-function: ease-in-out;
     font-size: 20px;
+    margin: 10px;
     
    
 }
@@ -313,10 +334,41 @@ section{
 }
 
 #book-today{
-    margin-top: 150px;
+    margin-top: 120px;
     margin-bottom: 40px;
     font-size: 20px;
     font-weight: 700;
+}
+
+#hours{
+    margin-top: 10px;
+    color: #4d5eac;
+    margin-bottom: 60px;
+   
+}
+
+.day-list{
+    margin-top: 50px;
+}
+
+.day-list li{
+
+    padding: 10px;
+    
+    list-style: none;
+
+}
+
+#reach-us{
+    margin-top:120px;
+    color: #4d5eac;
+}
+
+.info-list li{
+    padding: 20px;
+    list-style: none;
+   
+   
 }
 
 

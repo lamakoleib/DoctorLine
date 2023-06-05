@@ -5,6 +5,8 @@ var button = document.getElementById("see-1");
 
 
 
+
+
 button.onclick = function(){
 
     if(card.className=="open"){
@@ -17,5 +19,7 @@ button.onclick = function(){
         button.innerHTML = "See Less";
     }
 };
+
+
 
 
