@@ -32,9 +32,11 @@ section{
     padding: 100px 0 80px;
     margin-bottom: 100px;
    
-    
-    
 
+}
+
+#services h1{
+    font-weight: 700;
 }
 
 #contact-us{
@@ -107,7 +109,7 @@ iframe{
    
 
     
-    transition: 0.51s;
+    transition: 0.5s;
     
 }
 
@@ -123,10 +125,6 @@ iframe{
 #doc1-info{
     font-size: 11px;
 }
-
-
-
-
 
 
 
@@ -269,52 +267,6 @@ iframe{
 }
 
 
-
-
-
-
-#services h1{
-    margin-bottom: 30px;
-    font-weight: 700;
-}
-
-
-
-#services h2{
-    margin-bottom: 50px;
-    margin-top: 100px;
-    font-size: 40px;
-    font-weight: 600;
-    color: #4d5eac;
-}
-
-
-
-#services li{
-    text-decoration: none;
-    list-style: none;
-    text-align: center;
-    padding: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-weight: 400;
-    border-radius: 25px;
-    cursor:default;
-    transition: 0.2s;
-    transition-timing-function: ease-in-out;
-    font-size: 20px;
-    margin: 10px;
-    
-   
-}
-
-#services li:hover{
-    background-color: #eeedf8;
-    border-radius: 25px;
-    transition: 0.2s;
-    transition-timing-function: ease-in-out;
-}
-
 #book-today-btn{
 
     padding: 10px;
@@ -349,11 +301,17 @@ iframe{
 
 .day-list{
     margin-top: 50px;
+    
+}
+
+.list-container{
+    text-align: justify;
 }
 
 .day-list li{
 
     padding: 10px;
+    
     
     list-style: none;
 
@@ -371,6 +329,40 @@ iframe{
    
 }
 
+table {
+    border-collapse: separate;
+    border-spacing: 3em;
+}
+
+th{
+    color: #4d5eac;
+    font-weight: 700;  
+    font-size: 40px;
+    padding: 40px;
+}
+
+.table-row{
+    font-size: 20px;
+    border-radius: 25px;
+    
+}
+
+td{
+
+    cursor:default;
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+   
+}
+
+td:hover{
+    background-color: #eeedf8;
+    border-radius: 25px;
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+    
+
+}
 
 
 
