@@ -404,8 +404,28 @@ td:hover{
 .form-container form{
 
     position: relative;
-    min-height: 200px;
+    min-height: 450px;
 
+}
+
+.form-container form .form{
+    position: absolute;
+    background-color: #eeedf8;
+}
+
+.form-container form .form.second{
+    opacity: 0;
+    pointer-events: none;
+}
+
+form.active .form.second{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+form.active .form.first{
+    opacity: 0;
+    pointer-events: none;
 }
 
 .form-container .details-personal{
@@ -456,11 +476,35 @@ td:hover{
     border-radius: 20px;
     font-weight: 500;
     transition:0.3s;
+    margin: 10px;
+    
 }
 
 .next-btn:hover{
     background-color: #4d5eac;
-    transform: scale(1.04);
+    box-shadow: 0 4px 8px rgba(77, 94, 172, 0.5); 
+    transition:0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+
+
+.back-btn{
+    padding: 5px;
+    color: #4d5eac;
+    border-color: #4d5eac;
+    background-color: #eeedf8;
+    border-radius: 20px;
+    font-weight: 500;
+    transition:0.3s;
+    margin: 10px;
+}
+
+.back-btn:hover{
+    background-color: #eeedf8;
+    color: #4d5eac;
+    border-color: #4d5eac;
+    box-shadow: 0 4px 8px rgba(77, 94, 172, 0.5); 
     transition:0.3s;
     transition-timing-function: ease-in-out;
 }
