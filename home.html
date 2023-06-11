@@ -230,6 +230,19 @@
 
                       
                 </div>
+
+                <div id="contact-therapist" class="row my-5 align-items-center justify-content-center">
+                    <div class="text-center">
+                        <h2 id="contact-th-text">Need to contact a specific therapist?</h2>
+                    <button type="button" id="contact-doctor"class="col-2 btn btn-secondary next-btn " data-bs-toggle="modal" data-bs-target="#contact-box">
+                    
+                        Send Message
+                         
+                     </button>
+
+                    </div>
+                    
+                </div>
             </div>
         </div>
     </section>
@@ -383,6 +396,44 @@
         
         </div>
     </section>
+
+    <div class="modal fade" id="contact-box" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content text-center">
+            <div class="modal-header">
+              <h5 class="modal-title" id="contact-modal-title">Contact your therapist</h5>
+              
+            </div>
+            <div class="modal-body text-center">
+             
+             <h4 class="md-header">It's that easy!</h4>
+             <p>Choose your therapist from the list and send them a personal message</p>
+             <div class="select input-field ">
+                <label >Select a Doctor</label>
+                <select class="form-select" aria-label="Default select example" required>
+                  <option selected>Not Selected</option>
+                  <option value="1">Dr. Eric Johnson</option>
+                  <option value="2">Dr. Hasna Alraee</option>
+                  <option value="3">Dr. Jane Doe</option>
+                  <option value="4">Dr. John Doe</option>
+                  <option value="5">Dr. Mohamed Shakir</option>
+                  <option value="6">Dr. Samantha Rhys</option>
+                </select>
+              </div>
+
+              <div class="input-field text-center">
+                <textarea class="longInput" cols="30" rows="10" placeholder="What is your concern?"></textarea>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="cancel-modal btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+              <button type="button" class="confirm-modal btn btn-primary"  data-bs-dismiss="modal">
+                Send Message
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
 
     
 
