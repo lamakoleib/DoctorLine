@@ -1,184 +1,228 @@
 <html lang="en" class="html">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Book</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <nav class="navbar navbar-expand-md fixed-top navbar-light">
-        <div class="container-xxl">
-            <a href="home.html" class="navbar-brand">
-                <span class="fw-bold"><span id="doctor-half">Doctor</span><span id="line-half">Line</span>
-            </span>
-            </a>
-            <!--toggle for mobile nav-->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+      <div class="container-xxl">
+        <a href="home.html" class="navbar-brand">
+          <span class="fw-bold"
+            ><span id="doctor-half">Doctor</span
+            ><span id="line-half">Line</span>
+          </span>
+        </a>
+        <!--toggle for mobile nav-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main-nav"
+          aria-controls="main-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <!--nav bar links-->
+        <!--nav bar links-->
 
-            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="home.html" class="nav-link">BACK TO HOME</a>
-                    </li>
-                    
-                </ul>
-            </div>
+        <div
+          class="collapse navbar-collapse justify-content-end align-center"
+          id="main-nav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="home.html" class="nav-link">BACK TO HOME</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
-    
-
     <section id="booking-page">
-    
-            <div class="row justify-content-center align-items-center">
+      <div class="row justify-content-center align-items-center">
+        <div class="text-center">
+          <h1 id="page-title">MAKE AN APPOINTMENT</h1>
+        </div>
+      </div>
+
+      <div class="row justify-content-center align-items-center">
+        <div class="form-container">
+            <div class="form-wrapper">
+
+                <div class="form-first">
+                    <form id="form1" action="#">
+              <header>Patient Information</header>
+              <div class="details-personal">
+                <div class="row justify-content-center align-items-center">
+                  <div class="fields">
+                    <div class="input-field">
+                      <label>First Name</label>
+                      <input type="text" placeholder="Enter your first name" />
+                    </div>
+                    <div class="input-field">
+                      <label>Last Name</label>
+                      <input type="text" placeholder="Enter your last name" />
+                    </div>
+                    <div class="input-field">
+                      <label>Date of Birth</label>
+                      <input type="date" placeholder="" />
+                    </div>
+
+                    <div class="input-field">
+                      <label>Email</label>
+                      <input type="text" placeholder="Enter your email" />
+                    </div>
+                    <div class="input-field">
+                      <label>Nearest Pharmacy Address (Optional)</label>
+                      <input type="text" placeholder="Enter the full address" />
+                    </div>
+                    <div class="input-field">
+                      <label>Phone Number (Optional)</label>
+                      <input type="tel" placeholder="Enter your phone number" />
+                    </div>
+                  </div>
+                </div>
+
                 <div class="text-center">
-
-                    <h1 id="page-title">MAKE AN APPOINTMENT</h1>
-
+                  <button
+                    type="submit"
+                    id="next-btn"
+                    class="btn btn-secondary next-btn">
+                    NEXT
+                  </button>
                 </div>
-                
+              </div>
+            </form>
             </div>
 
-            <div class="row justify-content-center align-items-center">
+            <div class="form-second">
+                <form id="form2">
+                    <header>What can we help with?</header>
+                    <div class="details-book">
+                <div class="row justify-content-center align-items-center">
+                  <div class="fields">
+                    <div class="input-field">
+                      <label>Select a Service</label>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
 
-                <div class="form-container">
+                      </select>
+                    </div>
+                    <div class="input-field">
+                      <label>Select a Doctor</label>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
                     
-                    <form action="#">
-                        <div class="form first">
-                            <header>Patient Information</header>
-                            <div class="details-personal">
 
-                                <div class="row justify-content-center align-items-center">
-
-                                    <div class="fields">
-                                        <div class="input-field">
-                                            <label>First Name</label>
-                                            <input type="text" placeholder="Enter your first name" >
-                                        </div>
-                                        <div class="input-field">
-                                            <label>Last Name</label>
-                                            <input type="text" placeholder="Enter your last name" >
-                                        </div>
-                                        <div class="input-field">
-                                            <label>Date of Birth</label>
-                                            <input type="date" placeholder="" >
-                                        </div>
-    
-                                        <div class="input-field">
-                                            <label>Email</label>
-                                            <input type="text" placeholder="Enter your email" >
-                                        </div>
-                                        <div class="input-field">
-                                            <label>Address of your nearest Pharmacy (Optional)</label>
-                                            <input type="text" placeholder="Enter the full address">
-                                        </div>
-                                        <div class="input-field">
-                                            <label>Phone Number (Optional)</label>
-                                            <input type="tel" placeholder="Enter your phone number">
-                                        </div>
-                                        
-                                    </div>
-
-                                </div>
-
-                                <div class="text-center">
-
-                                    <button id="next-btn"class="btn btn-secondary next-btn">
-                                        NEXT
-                                    </button>
-
-                                </div>
-
-                                
-                                
-                               
-
-                                
-                            </div>
-
-                            
-
-                           
-                                
-                                
-                                    
-                                    
-                                
-                            
-                        </div>
-
-                        <div class="form second">
-                            <header>Patient Information</header>
-                            <div class="details-book">
-                                <div class="row justify-content-center align-items-center">
-
-                                    <div class="fields">
-                                        <div class="input-field">
-                                            <label>First Name</label>
-                                            <input type="text" placeholder="Enter your first name" >
-                                        </div>
-                                        <div class="input-field">
-                                            <label>Last Name</label>
-                                            <input type="text" placeholder="Enter your last name" >
-                                        </div>
-                                        <div class="input-field">
-                                            <label>Date of Birth</label>
-                                            <input type="date" placeholder="" >
-                                        </div>
-    
-                                        <div class="input-field">
-                                            <label>Email</label>
-                                            <input type="text" placeholder="Enter your email" >
-                                        </div>
-                                        <div class="input-field">
-                                            <label>Address of your nearest Pharmacy (Optional)</label>
-                                            <input type="text" placeholder="Enter the full address">
-                                        </div>
-                                        <div class="input-field">
-                                            <label>Phone Number (Optional)</label>
-                                            <input type="tel" placeholder="Enter your phone number">
-                                        </div>
-                                        
-                                    </div>
-
-                                </div>
-
-                                <div class="buttons row justify-content-center align-items-center">
-
-                                    <div class="col-2 btn btn-secondary back-btn">
-                                        BACK
-                                        
-                                    </div>
-
-                                    <button class=" col-2 btn btn-secondary next-btn">
-                                        NEXT
-                                        
-                                    </button>
-
-                                </div>
-
-                            </div>
-                        </div>
-                    </form>
+                    <div class="input-field">
+                      <label>Choose a time</label>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                    <div id="date-input"class="input-field">
+                        <label >Choose a Date</label>
+                        <input type="date" placeholder="" />
+                      </div>
+                    
+                    
+                    
+                  </div>
                 </div>
 
+                
+                
+                <div
+                class="buttons row justify-content-center align-items-center"
+                >
+                  <div class="col-2 btn btn-secondary back-btn">BACK</div>
+
+                  <!-- <div class="col-2 text-center">
+                    <button id="book-button"class="btn btn-secondary next-btn" data-bs-toggle="modal" data-bs-target="#confirmation">
+                        BOOK
+
+                    </button>
+                  </div> -->
+
+
+
+                  <button type="button" id="book-button"class="col-2 btn btn-secondary next-btn " data-bs-toggle="modal" data-bs-target="#confirmation">
+                    
+                       BOOK
+                        
+                    </button>
+
+                    
+
+                    <!-- <div id="book-button"class="col-2 btn btn-secondary next-btn ">
+                        <a href="payment.html">
+                           SECURE PAYMENT
+                            </a>
+                        
+                        </div> -->
+
+                        
+                </div>
+              </div>
             </div>
 
-
+            
+        </form>
+    </div>
+</div>
+    </div>
+    
     </section>
 
-    
+    <div class="modal fade" id="confirmation" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+              
+            </div>
+            <div class="modal-body">
+             <h2>Confirm your appointment</h2>
+             <p>Confirm your appointment by clicking on "confirm" or go back</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+              <button type="button" class="btn btn-primary" onclick="window.location.href='confirm.html'">
+                Confirm
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    
-
-    
-    
-</body>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
 </html>
