@@ -79,8 +79,6 @@ section {
   }
 
   
-  
- 
 
   .card img{
     
@@ -89,20 +87,7 @@ section {
     object-fit: cover;
   }
   
-  .card.open {
-    height: 790px;
-    background-color: #eeedf8;
-    border-radius: 25px;
-    box-shadow: 0 4px 8px rgba(77, 94, 172, 0.4);
-  
-    transition: 0.5s;
-  }
-  
-  .card.open img {
-    border-radius: 25px;
-    margin-top: 10px;
-    
-  }
+
   
  .doc-info {
     font-size: 11px;
